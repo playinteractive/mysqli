@@ -20,8 +20,8 @@
         "php": ">=5.0.0"
     },
     "autoload": {
-        "psr-0": {
-            "MySQLiCharset": "src"
-        }
+        "classmap": [
+            "class.mysqli.php"
+        ]
     }
 }
