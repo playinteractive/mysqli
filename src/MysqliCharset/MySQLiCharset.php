@@ -8,7 +8,6 @@ namespace MySQLiCharset;
 
 class mysqli_link
 {
-
 	public $mysqli = NULL;
 
 	public function __construct($hostname, $username, $password, $database, $charset)
