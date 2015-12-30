@@ -1,0 +1,27 @@
+{
+    "name": "playinteractive/mysqli",
+    "type": "library",
+    "description": "Simplest mysqli connection class with character set",
+    "keywords": [
+        "mysqli", "PHP", "connection", "connect", "charset"
+    ],
+    "homepage": "https://github.com/playinteractive/mysqli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salvador Baques",
+            "email": "salva@playinteractive.com",
+            "homepage": "http://www.playinteractive.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "MySQLiCharset": "src"
+        }
+    }
+}
