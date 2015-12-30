@@ -2,7 +2,7 @@
 Simplest mysqli connection class with character set
 
 # use
-define('DATABASE_CHARSET', 'utf8');
+define('DATABASE_CHARSET', 'utf8');<br />
 define('DATABASE_HOSTNAME', 'localhost');
 define('DATABASE_NAME', 'db_name');
 define('DATABASE_PASSWORD', 'yourpass');
