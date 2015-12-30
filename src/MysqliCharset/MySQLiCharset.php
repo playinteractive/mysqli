@@ -19,7 +19,6 @@ class mysqli_link
 
 	public function query($query)
 	{
-
 		$result = $this->mysqli->query($query);
 		return $result;
 	}
