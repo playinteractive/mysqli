@@ -10,9 +10,18 @@ class mysqli_link
 		$this->mysqli->set_charset($charset);
 	}
 
+	public function insert_id()
+	{
+		return $this->mysqli->insert_id;
+	}
+
 	public function query($query)
 	{
-		$result = $this->mysqli->query($query);
-		return $result;
+		return $this->mysqli->query($query);
+	}
+
+	public function real_escape_string($str)
+	{
+		return $this->mysqli->real_escape_string($str);
 	}
 }
