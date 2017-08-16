@@ -4,10 +4,11 @@ class mysqli_link
 {
 	public $mysqli = NULL;
 
-	public function __construct($hostname, $username, $password, $database, $charset)
+	public function __construct($hostname, $username, $password, $database, $charset, $offset)
 	{
 		$this->mysqli = new mysqli($hostname, $username, $password, $database);
 		$this->mysqli->set_charset($charset);
+		$this->mysqli->query("SET time_zone = '$offset'");
 	}
 
 	public function insert_id()
