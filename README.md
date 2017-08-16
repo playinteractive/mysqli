@@ -1,8 +1,8 @@
 # mysqli
-Simplest mysqli connection class with character set.
+Simplest mysqli connection class with character set and time zone settings.
 
 # use
-$db = new mysqli_link($hostname, $username, $password, $database, $charset);
+$db = new mysqli_link($hostname, $username, $password, $database, $charset, $offset);
 
 $db->query("SELECT * FROM table");
 
