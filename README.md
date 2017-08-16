@@ -1,5 +1,5 @@
 # mysqli
-Simplest mysqli connection class with character set and time zone settings.
+Simplest mysqli connection class with character set and timezone settings.
 
 # use
 $db = new mysqli_link($hostname, $username, $password, $database, $charset, $offset);
