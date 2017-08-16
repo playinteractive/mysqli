@@ -1,7 +1,7 @@
 {
     "name": "playinteractive/mysqli",
     "type": "library",
-    "description": "Simplest mysqli connection class with character set and timezone",
+    "description": "Simplest mysqli connection class with character set and timezone settings.",
     "keywords": [
         "mysqli", "PHP", "connection", "connect", "charset"
     ],
