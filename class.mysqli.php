@@ -4,7 +4,7 @@ class mysqli_link
 {
 	public $mysqli = NULL;
 
-	public function __construct($hostname, $username, $password, $database, $charset = 'utf8mb4', $offset = '+00:00')
+	public function __construct($hostname = 'localhost', $username, $password, $database, $charset = 'utf8mb4', $offset = '+00:00')
 	{
 		$this->mysqli = new mysqli($hostname, $username, $password, $database);
 		$this->mysqli->set_charset($charset);
