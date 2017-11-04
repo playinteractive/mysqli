@@ -1,7 +1,7 @@
 # mysqli
 Simplest mysqli connection class with character set and timezone settings.
 
-# Install
+# install
 $ composer require playinteractive/mysqli dev-master
 
 # use
