@@ -1,6 +1,9 @@
 # mysqli
 Simplest mysqli connection class with character set and timezone settings.
 
+# Install
+$ composer require playinteractive/mysqli dev-master
+
 # use
 $db = new mysqli_link($hostname, $username, $password, $database, $charset, $offset);
 
