@@ -4,9 +4,9 @@ class mysqli_link
 {
 	public $mysqli = NULL;
 
-	public function __construct($hostname = 'localhost', $username, $password, $database, $charset = 'utf8mb4', $offset = '+00:00')
+	public function __construct($username, $password, $database, $offset = '+00:00', $charset = 'utf8mb4', $host = 'localhost')
 	{
-		$this->mysqli = new mysqli($hostname, $username, $password, $database);
+		$this->mysqli = new mysqli($host, $username, $password, $database);
 		$this->mysqli->set_charset($charset);
 		$this->mysqli->query("SET time_zone = '$offset'");
 	}
