@@ -8,7 +8,7 @@ $ composer require playinteractive/mysqli dev-master
 
 # Use
 ```php
-$db = new mysqli_link($hostname, $username, $password, $database, $charset, $offset);
+$db = new mysqli_link($username, $password, $database, $offset, $charset, $hostname);
 
 $db->query("SELECT * FROM table");
 
@@ -18,5 +18,5 @@ $db->real_escape_string($str)
 ```
 # Example
 ```php
-$db = new mysqli_link('host', 'username', 'pass', 'db', 'utf8', date('P'));
+$db = new mysqli_link('dbuser', 'dbpass', 'dbname', date('P'), 'utf8', 'localhost');
 ```
