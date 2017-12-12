@@ -1,9 +1,9 @@
 {
     "name": "playinteractive/mysqli",
     "type": "library",
-    "description": "Simplest mysqli connection class with character set and timezone settings.",
+    "description": "Lightweight MySQLi connection class with character set and timezone settings.",
     "keywords": [
-        "mysqli", "PHP", "connection", "connect", "charset"
+        "mysqli", "php", "connection", "connect", "port", "offset", "charset", "persistent", "timezone", "fast"
     ],
     "homepage": "https://github.com/playinteractive/mysqli",
     "license": "MIT",
@@ -11,7 +11,7 @@
         {
             "name": "Playinteractive",
             "email": "salva@playinteractive.com",
-            "homepage": "http://www.playinteractive.com",
+            "homepage": "https://www.playinteractive.com",
             "role": "Developer"
         }
     ],
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "classmap": [
-            "class.mysqli.php"
+            "mysqli.class.php"
         ]
     }
 }
