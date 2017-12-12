@@ -20,10 +20,10 @@ $db->real_escape_string($str)
 ```php
 $options = [
 
-'host' => 'localhost', 
-'port' => 3306, 
-'persistent' => FALSE, 
-'charset' => 'utf8mb4', 
+'host' => 'localhost',
+'port' => 3306,
+'persistent' => FALSE,
+'charset' => 'utf8mb4',
 'offset' => '+00:00'
 
 ];
