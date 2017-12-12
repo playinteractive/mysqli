@@ -1,5 +1,5 @@
 # Description
-Simplest mysqli connection class with character set and timezone settings.
+Lightweight MySQLi connection class with character set and timezone settings.
 
 # Install
 ```bash
