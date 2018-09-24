@@ -10,7 +10,7 @@ $ composer require playinteractive/mysqli dev-master
 ```php
 $db = new mysqli_link($username, $password, $database, array('offset' => date('P')));
 
-$db->query("SELECT * FROM table");
+$db->query("SELECT field FROM table");
 
 $db->insert_id();
 
