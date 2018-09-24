@@ -6,7 +6,7 @@ class mysqli_link
 
 	private $options = ['host' => 'localhost', 'port' => 3306, 'persistent' => FALSE, 'charset' => 'utf8mb4', 'offset' => '+00:00'];
 
-	function __construct($username, $password, $database, array $options)
+	function __construct($username, $password, $database, array $options = array())
 	{
 		$this->options = array_merge($this->options, $options);
 		$this->mysqli = new mysqli($this->options['persistent'] ? 'p:' . $this->options['host'] : $this->options['host'], $username, $password, $database, $this->options['port']);
