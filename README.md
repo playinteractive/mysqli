@@ -8,7 +8,7 @@ $ composer require playinteractive/mysqli dev-master
 
 # Example
 ```php
-$db = new mysqli_link($username, $password, $database, array('offset' => date('P')));
+$db = new mysqli_connect($username, $password, $database, array('offset' => date('P')));
 
 $db->query("SELECT field FROM table");
 
