@@ -1,6 +1,12 @@
 <?php
 
-class mysqli_link
+/**
+ * @author    Playinteractive <mysqli.github@playinteractive.com>
+ * @link      http://www.playinteractive.com/
+ * @copyright 2017 Playinteractive
+ */
+
+class mysqli_connect
 {
 	public $mysqli = NULL;
 
