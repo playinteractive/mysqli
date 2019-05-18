@@ -3,7 +3,7 @@
  * @author    Playinteractive <mysqli.github@playinteractive.com>
  * @link      https://www.playinteractive.com
  * @copyright 2017 Playinteractive
- * @source    https://github.com/playinteractive/mysqli
+ * @package    https://github.com/playinteractive/mysqli
  */
 
 class mysqli_connect
